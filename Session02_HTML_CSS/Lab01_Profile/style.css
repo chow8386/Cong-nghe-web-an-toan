@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header-content h1 {
+    color: #007bff;
+    margin: 0 0 0 80px;
+    font-size: 2em;
+}
+
+.header-content p {
+    color: grey;
+    margin: 0;
+}
+
+#nav {
+    padding: 2px;
+    margin: 0 265px 0 0;
+}
+
+#nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#container {
+    display: flex;
+    margin: 20px;
+}
+
+.description {
+    flex: 1;
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.description h2 {
+    font-size: 1.5em;
+    margin-left: 40px;
+}
+
+.description dl {
+    padding: 0;
+    margin-left: 40px;
+}
+
+.description button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+#main {
+    flex: 2;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#main h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 120px;
+    margin-right: 20px;
+    border: 1px solid #2dad81;
+}
+
+.profile ul li {
+    padding: 5px 0;
+}
+
+.profile2 {
+    line-height: 1.5;
+}
+
+.icon {
+    width: 30px;
+    padding: 0 10px 0 0;
+    margin: 0 0 -10px 0;
+}
+
+
+
