@@ -1,0 +1,4 @@
+admin:admin
+dimyrunyma:Pa$$w0rd!
+palup:Pa$$w0rd!
+palup:Pa$$w0rd!
